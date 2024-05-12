@@ -1,0 +1,24 @@
+{
+  "name": "Informatica",
+  "children": [
+    {
+      "name": "Redes",
+      "children": [
+        { 
+          "name": "Administracion de redes",
+          "children": [
+            { "name": "Modelo OSI" } 
+          ]
+        },
+        { "name": "Administracion de servidores" }
+      ]
+    },
+    {
+      "name": "Programacion",
+      "children": [
+        { "name": "Estructura de datos 1"},
+        { "name": "Estructura de datos 2" }
+      ]
+    }
+  ]
+}

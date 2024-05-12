@@ -1,0 +1,134 @@
+.mainContainer{
+    display: flex;
+    column-gap: 2%;
+}
+
+body{
+    background-color: white;
+    height: 100hv;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.leftSide{
+    width: 30%;
+    background-color: #396b46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide{
+    width: 30%;
+}
+
+
+.title{
+    color: #6D4C41;
+    display: flex;
+    column-gap: 8%;
+    margin-right: 20%;
+    height: 5%;
+}
+
+.message{
+    margin-right: 20%;
+    font-size: 100%;
+}
+
+.message h1{
+    color: #6D4C41;
+}
+
+
+.message span{
+    color: blue;
+}
+
+.borderBox{
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+    font-size: 120%;
+    color: #6D4C41;
+
+    column-gap: 5%;
+
+    align-items: center;
+    border: 1px solid #6D4C41;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.word{
+    margin-right: 20%;
+    align-items: center;
+    justify-content: center;
+    color: #545454;
+}
+.middleWord{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.6rem;
+}
+
+.middleWord::before , .middleWord::after{
+
+    content: "";
+    height: 1px;
+    background-color: #545454;
+    color: #545454;
+    display: block;
+}
+
+.EmailPassword{
+    margin-right: 20%;
+}
+
+
+.EmailPassword input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6D4C41;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.EmailPassword input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6D4C41;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.EmailPassword input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6D4C41;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.EmailPassword input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6D4C41;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.EmailPassword button{
+    font-size: 18px;
+    padding: 7px;
+    color: gray;
+    background-color: #aaaaaa;
+    border: 5px gray;
+    border-radius: 20px;
+    width: 30%;
+}
