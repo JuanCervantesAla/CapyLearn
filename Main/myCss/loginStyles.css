@@ -1,0 +1,144 @@
+.mainContainer{
+    display: flex;
+    column-gap: 5%;
+}
+
+body{
+    background-color: white;
+    height: 100hv;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.leftSide{
+    width: 30%;
+}
+
+.rightSide{
+    width: 65%;
+    background-color: #396b46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #6D4C41;
+    display: flex;
+    column-gap: 8%;
+    margin-left: 20%;
+    height: 5%;
+}
+
+.message{
+    margin-left: 20%;
+    font-size: 100%;
+}
+
+.message h1{
+    color: #6D4C41;
+}
+
+
+.message span{
+    color: blue;
+}
+
+.borderBox{
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+    margin-left: 20%;
+    color: #6D4C41;
+
+    column-gap: 5%;
+
+    align-items: center;
+    border: 1px solid #6D4C41;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.word{
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+    color: #545454;
+}
+.middleWord{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.6rem;
+}
+
+.middleWord::before , .middleWord::after{
+
+    content: "";
+    height: 1px;
+    background-color: #545454;
+    color: #545454;
+    display: block;
+}
+
+.EmailPassword{
+    margin-left: 20%;
+}
+
+
+.EmailPassword input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6D4C41;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.EmailPassword input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6D4C41;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.enter{
+    display: inline-block;
+    column-gap: 10%;
+}
+
+.EmailPassword button{
+    font-size: 18px;
+    padding: 7px;
+    color: gray;
+    background-color: #aaaaaa;
+    border: 5px gray;
+    border-radius: 20px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.EmailPassword input[type="submit"] {
+    font-size: 18px;
+    padding: 7px;
+    color: gray;
+    background-color: #aaaaaa;
+    border: 5px gray;
+    border-radius: 20px;
+    width: 30%;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.EmailPassword:active input[type="submit"] {
+    transform: scale(0.9);
+    color: blue;
+}
+
+.enter h4{
+    color: #545454;
+}

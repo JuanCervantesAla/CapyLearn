@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My progress</title>
+        <link rel="stylesheet" href="myCss/progress.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.0.0/d3.min.js"></script>
+
+    </head>
+
+
+    <body>
+
+
+        <header>
+
+
+            <nav>
+                <div class="logo">
+                    <img class="icon" src="images/icon.png" alt="NoDesc" width="50" height="50">
+                    <h3>CapyLearn</h3>
+                </div>
+
+                <div class="searchBar">
+                    <form action="" class="search">
+                        <input type="text" placeholder="search courses or topics" name="q">
+                        <button type="submit"><img src="images/search.png" width="5%" height="5%"></button>
+                    </form>
+                </div>
+
+                <div class="space">
+                    <h4>----</h4>
+                </div>
+
+                <h4 class="language">English <span> > </span></h4>
+
+                <img class="profilePhoto" src="images/Emiliano.png" alt="NoDesc" width="50" height="50" onclick="toggleMenu()">
+
+                <div class = "subMenuContainer" id="subMenu">
+                    <div class="subMenu">
+                        <div class="userInfo">
+                            <img src = "images/Emiliano.png">
+                            <h3>Juan Cervantes</h3>
+                        </div>
+                        <hr>
+
+                        <a href="#" class="subMenuLink">
+                            <img src="images/profile.png">
+                            <p>Edit profile</p>
+                            <span> > </span>
+                        </a>
+                        <a href="#" class="subMenuLink">
+                            <img src="images/settings.png">
+                            <p>Settings</p>
+                            <span> > </span>
+                        </a>
+                        <a href="#" class="subMenuLink">
+                            <img src="images/help.png">
+                            <p>Help</p>
+                            <span> > </span>
+                        </a>
+                        <a href="#" class="subMenuLink">
+                            <img src="images/logout.png">
+                            <p>Log out</p>
+                            <span> > </span>
+                        </a>
+
+                    </div>
+                </div>
+            </nav>
+        <header>
+
+        <div class="fullBody">
+            <h1>My progress</h1>
+            <div class="skillBox">
+                <span class="title">Carrer Path Progress</span>
+
+                <div class="skillBar">
+                    <span class="skillPer career">
+                        <span class="tooltip">95%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skillBox">
+                <span class="title">Weekly progress</span>
+
+                <div class="skillBar">
+                    <span class="skillPer weekly ">
+                        <span class="tooltip">70%</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="skillBox">
+                <span class="title">Upload Progress</span>
+
+                <div class="skillBar">
+                    <span class="skillPer upload">
+                        <span class="tooltip">40%</span>
+                    </span>
+                </div>
+            </div>
+            <hr><br>
+
+
+            <h3>Last resource visited</h3>
+            <div class="lastContainer">
+                <div class="last">
+                    <img src="images/paper.png" width="100" height="100">
+                    <span>Modelo Osi: Una orientacion ascendente</span>
+                </div>
+            </div>
+            <br><br><hr><br>
+
+
+            <h3>My courses</h3>
+            <div class="skillBox2">
+                <img src="images/data.jpg" width="100" height="100">
+                <span class="title">Course progress</span>
+
+                <div class="skillBar">
+                    <span class="skillPer weekly ">
+                        <span class="tooltip">70%</span>
+                    </span>
+                </div>
+            </div>
+            <br><br><hr><br>
+            <h3>Check your completed courses</h3>
+            <div class="courseContainer">
+                <img src="images/dogs.jpg" width="200" height="200">
+                <span>404 not courses found</span>
+            </div>
+        </div>
+        <script src="js/subMenu.js"></script>
+    </body>
+</html>

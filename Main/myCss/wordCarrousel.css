@@ -1,0 +1,67 @@
+/*Word Carrousel*/
+
+.wrapperWord{
+    font-family: Sevillana;
+    font-size: 20px;
+    box-sizing: content-box;
+    background-color: white;
+    height: 12%;
+    padding: 4% 2%;
+    display: flex;
+    padding-left: 20%;
+    padding-top: 0%;
+
+}
+
+.wrapperWord p{
+    padding-bottom: 100%;
+}
+
+.words{
+    overflow: hidden;
+}
+
+span{
+    font-family: Sevillana;
+    font-size: 20px;
+    display: block;
+    height: 100%;/*Distance between words*/
+    padding-left: 8px;/*Distance between solid word and rotatives words*/
+    color: blue;
+    animation: spin_words 6s infinite;/*Loop time between words*/
+}
+
+@keyframes spin_words{
+    10%{
+        transform: translateY(-75%);
+    }
+
+    25%{
+        transform: translateY(-63%);
+    }
+
+    35%{
+        transform: translateY(-175%);
+    }
+
+    50%{
+        transform: translateY(-163%);
+    }
+
+    60%{
+        transform: translateY(-275%);
+    }
+
+    75%{
+        transform: translateY(-263%);
+    }
+
+    85%{
+        transform: translateY(-375%);
+    }
+
+    100%{
+        transform: translateY(-363%);
+    }
+
+}

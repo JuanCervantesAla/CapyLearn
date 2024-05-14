@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Título de la página</title>
+        <link rel="stylesheet" href="myCss/homeStyles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.0.0/d3.min.js"></script>
+
+    </head>
+
+
+    <body>
+
+
+        <header>
+
+
+            <nav>
+                <div class="logo">
+                    <img class="icon" src="images/icon.png" alt="NoDesc" width="50" height="50">
+                    <h3>CapyLearn</h3>
+                </div>
+
+                <div class="searchBar">
+                    <form action="" class="search">
+                        <input type="text" placeholder="search courses or topics" name="q">
+                        <button type="submit"><img src="images/search.png" width="5%" height="5%"></button>
+                    </form>
+                </div>
+
+                <div class="space">
+                    <h4>----</h4>
+                </div>
+
+                <h4 class="language">English <span> > </span></h4>
+
+                <img class="profilePhoto" src="images/Emiliano.png" alt="NoDesc" width="50" height="50" onclick="toggleMenu()">
+
+                <div class = "subMenuContainer" id="subMenu">
+                    <div class="subMenu">
+                        <div class="userInfo">
+                            <img src = "images/Emiliano.png">
+                            <h3>Juan Cervantes</h3>
+                        </div>
+                        <hr>
+
+                        <a href="#" class="subMenuLink">
+                            <img src="images/profile.png">
+                            <p>Edit profile</p>
+                            <span> > </span>
+                        </a>
+                        <a href="#" class="subMenuLink">
+                            <img src="images/settings.png">
+                            <p>Settings</p>
+                            <span> > </span>
+                        </a>
+                        <a href="#" class="subMenuLink">
+                            <img src="images/help.png">
+                            <p>Help</p>
+                            <span> > </span>
+                        </a>
+                        <a href="#" class="subMenuLink">
+                            <img src="images/logout.png">
+                            <p>Log out</p>
+                            <span> > </span>
+                        </a>
+
+                    </div>
+                </div>
+
+            </nav>
+
+
+        <header>
+
+        <div class="bodyContainer">
+
+            <div class="leftSide">
+                <h3>Juan Cervantes's</h3>
+                <img src="images/Emiliano.png" alt="NoDesc" width="50" height="50">
+                <h5>Carrer path progress: 34%</h5>
+                <h5>Weekly progress:      80%</h5>
+                <h5>Last resource visited: "Modelo Osi"</h5>
+                <br>
+                <hr>
+                <h4 id="progress"><a href="progress.html">My progress </a><span> > </span></h4>
+                <h4 id="courses"><a href="data.html"></a>My courses <span> > </span></h4>
+                <h4 id="upload">Upload A resource <span> > </span></h4>
+                <h4 id="external">External Content <span> > </span></h4>
+            </div>
+    
+            <div class="rightSide">
+
+                <div class="treeContainer" id="treeContainer">
+                    <svg id="tree"></svg>
+                </div>
+
+            </div>
+    
+        </div>
+    
+    
+        <footer>
+            <div class="foot">
+                <span><a href="https://github.com/JuanCervantesAla">GitHub</a></span>
+                <span><a href="mailto:juajocervantes16@gmail.com">Correo</a></span>
+                <span><a href="https://www.instagram.com/emi_cafg/">Instagram</a></span>
+            </div>
+            <p>Emiliano Cervantes</p>
+        </footer>  
+
+        <script src="js/MajorTree.js"></script>
+        <script src="js/subMenu.js"></script>
+
+
+    </body>
+</html>

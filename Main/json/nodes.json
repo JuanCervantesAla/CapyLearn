@@ -1,0 +1,69 @@
+{
+  "name": "Informatica",
+  "children": [
+    {
+      "name": "Matematicas",
+      "children": [
+        { 
+          "name": "Metodos Matematicos I",
+          "children": [
+            { "name": "Pre-Calculo" },
+            { "name": "Algebra-Lineal" }
+          ]
+        },
+        { 
+          "name": "Metodos Matematicos II",
+          "children": [
+            { "name": "Calculo Diferencial" },
+            { "name": "Calculo Integral" },
+            { "name": "Diferenciales Ordinarias" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Redes",
+      "children": [
+        { 
+          "name": "Administracion de redes",
+          "children": [
+            { "name": "Modelo OSI" },
+            { "name": "Tipos de cableado"},
+            { "name": "Servicios basicos"},
+            { "name": "Switch-Lan"}
+          ]
+        },
+        { 
+          "name": "Administracion de servidores",
+          "children" : [
+            { "name": "SSH" },
+            { "name": "DNS" },
+            { "name": "FTP" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Programacion",
+      "children": [
+        { 
+          "name": "Estructura de datos 1",
+          "children": [
+            { "name": "Operadores" },
+            { "name": "Condicionales" },
+            { "name": "Bucles" }
+          ]
+        },
+        { 
+          "name": "Estructura de datos 2",
+          "children": [
+            { "name": "Listas" },
+            { "name": "Pilas" },
+            { "name": "Colas" },
+            { "name": "Arboles" }
+          ]
+         }
+      ]
+    }
+  ]
+}
